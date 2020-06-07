@@ -1,12 +1,24 @@
-.grid-container {
-    display: -inline-grid;
-    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-    background-color: #fff;
-    padding: 10px;  
+#myHeader {
+background-color: #fff;
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
-.grid-item {
+
+.flex-container> div {
     color: #000000;
     font-family: arial;
     font-size: 30x; 
     text-align: center;
+    width: 20px;
+    padding: 10px; 
+    margin: 10px; 
+    line-height: 40px; 
+}
+}
+
+#google_logo {
+
 }
