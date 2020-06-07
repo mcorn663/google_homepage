@@ -1,7 +1,12 @@
 .grid-container {
-    display: grid;
-    grid-template-row: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    display: -inline-grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    background-color: #fff;
+    padding: 10px;  
+}
+.grid-item {
     color: #000000;
     font-family: arial;
-    font-size: 30x;    
+    font-size: 30x; 
+    text-align: center;
 }
