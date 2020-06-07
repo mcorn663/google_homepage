@@ -1,0 +1,7 @@
+.grid-container {
+    display: grid;
+    grid-template-row: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    color: #000000;
+    font-family: arial;
+    font-size: 30x;    
+}
